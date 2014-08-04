@@ -1,0 +1,77 @@
+{
+	"Escenas":
+	{	
+		"1-1-1": 
+		{
+			"id":"1-1-1",
+			"texto":"Eran las catorce horas. Casi las quince de un día de agosto. Había llevado a mi esposa\ny a mi hija al centro comercial. Lina, sentada sobre mis hombros, conversaba conmigo\nmientras Diane pensaba en las cosas que faltaban comprar. ",
+			"botones":
+			[
+				{
+					"texto":"Siguiente",
+					"destino": "1-1-2"
+				}
+			]
+		},
+		"1-1-2": 
+		{
+			"id":"1-1-2",
+			"texto":"Estos zombies mordelones convertían a la gente que mordían en \notros zombies mordelones.",
+			"botones":
+			[
+				{
+					"texto":"Este botón te lleva a 1-1-1",
+					"destino": "1-1-1"
+				},
+				{
+					"texto":"Este botón te lleva a 1-1-3",
+					"destino": "1-1-3"
+				},
+				{
+					"texto":"Este botón te lleva a 1-1-4",
+					"destino": "1-1-4"
+				}
+			]
+		},
+		"1-1-3": 
+		{
+			"id":"1-1-3",
+			"texto":"Y así, la sociedad que una vez conocimos se convirtió en una banda \nde perros humanos.",
+			"botones":
+			[
+				{
+					"texto":"Este botón te lleva a 1-1-2",
+					"destino": "1-1-2"
+				},
+				{
+					"texto":"Este botón te lleva a 1-1-1",
+					"destino": "1-1-1"
+				},
+				{
+					"texto":"Este botón te lleva a 1-1-4",
+					"destino": "1-1-4"
+				}
+			]
+		},
+		"1-1-4": 
+		{
+			"id":"1-1-4",
+			"texto":"Sólo el avatar, maestro de los 4 elementos podía salvarnos.\nPero cuando el mundo más lo necesitaba, desapareció...",
+			"botones":
+			[
+				{
+					"texto":"Este botón te lleva a 1-1-1",
+					"destino": "1-1-1"
+				},
+				{
+					"texto":"Este botón te lleva a 1-1-2",
+					"destino": "1-1-2"
+				},
+				{
+					"texto":"Este botón te lleva a 1-1-3",
+					"destino": "1-1-3"
+				}
+			]
+		}
+	}
+}
