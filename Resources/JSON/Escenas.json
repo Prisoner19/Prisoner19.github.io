@@ -16,46 +16,54 @@
 		"1-1-2": 
 		{
 			"id":"1-1-2",
-			"texto":"Estos zombies mordelones convertían a la gente que mordían en \notros zombies mordelones.",
+			"texto":"Quedaban aún tres tiendas por visitar. Mientras me quejaba mentalmente por el cansancio,\nDiane acarició mi mano:\n―Falta poco ―dijo sonriendo.",
 			"botones":
 			[
 				{
-					"texto":"Este botón te lleva a 1-1-1",
-					"destino": "1-1-1"
-				},
-				{
-					"texto":"Este botón te lleva a 1-1-3",
+					"texto":"Siguiente",
 					"destino": "1-1-3"
-				},
-				{
-					"texto":"Este botón te lleva a 1-1-4",
-					"destino": "1-1-4"
 				}
 			]
 		},
 		"1-1-3": 
 		{
 			"id":"1-1-3",
-			"texto":"Y así, la sociedad que una vez conocimos se convirtió en una banda \nde perros humanos.",
+			"texto":"―¿Por qué no vas con Lina a comprar un par de helados? ―continuó― Yo puedo terminar\nde hacer las compras.",
 			"botones":
 			[
 				{
-					"texto":"Este botón te lleva a 1-1-2",
-					"destino": "1-1-2"
-				},
-				{
-					"texto":"Este botón te lleva a 1-1-1",
-					"destino": "1-1-1"
-				},
-				{
-					"texto":"Este botón te lleva a 1-1-4",
+					"texto":"Aceptar",
 					"destino": "1-1-4"
+				},
+				{
+					"texto":"Rechazar",
+					"destino": "1-1-5"
 				}
 			]
 		},
 		"1-1-4": 
 		{
 			"id":"1-1-4",
+			"texto":"Sólo el avatar, maestro de los 4 elementos podía salvarnos.\nPero cuando el mundo más lo necesitaba, desapareció...",
+			"botones":
+			[
+				{
+					"texto":"Este botón te lleva a 1-1-1",
+					"destino": "1-1-1"
+				},
+				{
+					"texto":"Este botón te lleva a 1-1-2",
+					"destino": "1-1-2"
+				},
+				{
+					"texto":"Este botón te lleva a 1-1-3",
+					"destino": "1-1-3"
+				}
+			]
+		},
+        "1-1-5": 
+		{
+			"id":"1-1-5",
 			"texto":"Sólo el avatar, maestro de los 4 elementos podía salvarnos.\nPero cuando el mundo más lo necesitaba, desapareció...",
 			"botones":
 			[
