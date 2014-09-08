@@ -5,7 +5,7 @@ var menu_state =
         var x = game.world.width/2;
         var y = game.world.height/2;
         
-        var button = new LabelButton(this.game, 100, 200, 'button', "Empezar", this.on_click, this, 2, 1, 0);
+        var button = new Boton(this.game, 100, 200, 'button', "Empezar", this.on_click, this, 2, 1, 0);
     },
     
     on_click : function ()

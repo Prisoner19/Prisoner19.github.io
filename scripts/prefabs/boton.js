@@ -1,4 +1,4 @@
-var LabelButton = function(game, x, y, key, label, callback,
+var Boton = function(game, x, y, key, label, callback,
                        callbackContext, overFrame, outFrame, downFrame, upFrame)
 {
     Phaser.Button.call(this, game, x, y, key, callback,
@@ -6,11 +6,13 @@ var LabelButton = function(game, x, y, key, label, callback,
  
     //Style how you wish...
     this.style = {
-        'font': '13px Candara',
+        'font': '13px Century Schoolbook',
         'fill': 'black'
     };
     this.anchor.setTo( 0, 0.5 );
     this.label = new Phaser.Text(game, 10, 0, label, this.style);
+    
+    this.renderable = false;
  
     //puts the label in the center of the button
     this.label.anchor.setTo( 0, 0.5 );
@@ -22,10 +24,10 @@ var LabelButton = function(game, x, y, key, label, callback,
     game.add.existing( this );
 };
  
-LabelButton.prototype = Object.create(Phaser.Button.prototype);
-LabelButton.prototype.constructor = LabelButton;
+Boton.prototype = Object.create(Phaser.Button.prototype);
+Boton.prototype.constructor = Boton;
  
-LabelButton.prototype.setLabel = function( label ) {
+Boton.prototype.setLabel = function( label ) {
     
    this.label.setText(label);
  
