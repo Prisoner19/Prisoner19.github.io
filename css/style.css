@@ -100,8 +100,8 @@ body :-ms-input-placeholder {
 
 .wrapper {
   background: #5a814e;
-  background: -webkit-linear-gradient(top left, #698135 0%, #63895d 100%);
-  background: linear-gradient(to bottom right, #698135 0%, #63895d 100%);
+  background: -webkit-linear-gradient(top left, #546753 0%, #63895d 100%);
+  background: linear-gradient(to bottom right, #546753 0%, #63895d 100%);
   position: relative;
   top: 40%;
   left: 0;
