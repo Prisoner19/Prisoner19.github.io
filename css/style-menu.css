@@ -209,30 +209,43 @@ img {
 /*label*/
 .label-primary {
   background-color: #4697ce;
+font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
 }
 .label-default {
   background-color: #a1a1a1;
-
+font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
 }
 .label-success {
   background-color: #27C24C;
   color: #DFF5E4;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
 }
 .label-info {
   background-color: #23B7E5;
   color: #E3F6FC;
+    font-family: 'Source Sans Pro', sans-serif;    
+    font-size: 13px;
 }
 .label-inverse {
   background-color: #4f5259;
   color: #DFE2F0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
 }
 .label-warning {
-  background-color: #FAD733;
+  background-color: #b7ab73;
   color: #FDF8E5;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
 }
 .label-danger {
   background-color: #F05050;
   color: #FAE6E6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
 }
 /* Background colors */
 .bg-red,
@@ -3135,7 +3148,7 @@ vertical-align: top;
 }
 
 .pace .pace-progress {
-  background-color: #29d;
+  background-color: #43744e;
   position: fixed;
   z-index: 2000;
   top: 0;
@@ -4206,4 +4219,9 @@ padding: 6px 10px;
 }
 .st-blue {
   background-color: #23b7e5;
+}
+.logout-button
+{
+  background-color: #7C4646;
+  color: #fff !important;
 }
